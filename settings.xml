@@ -10,14 +10,14 @@
 
 <profiles>
   <profile>
-    <id>nextwork-nextwork-devops-cicd</id>
+    <id>nextworkdomain-nextwork</id>
     <activation>
       <activeByDefault>true</activeByDefault>
     </activation>
     <repositories>
       <repository>
-        <id>nextwork-nextwork-devops-cicd</id>
-        <url>https://nextwork-799990344483.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+        <id>nextworkdomain-nextwork</id>
+        <url>https://nextworkdomain-799990344483.d.codeartifact.eu-west-1.amazonaws.com/maven/nextwork/</url>
       </repository>
     </repositories>
   </profile>
@@ -25,9 +25,9 @@
 
 <mirrors>
   <mirror>
-    <id>nextwork-nextwork-devops-cicd</id>
-    <name>nextwork-nextwork-devops-cicd</name>
-    <url>https://nextwork-799990344483.d.codeartifact.us-east-2.amazonaws.com/maven/nextwork-devops-cicd/</url>
+    <id>nextworkdomain-nextwork</id>
+    <name>nextworkdomain-nextwork</name>
+    <url>https://nextworkdomain-799990344483.d.codeartifact.eu-west-1.amazonaws.com/maven/nextwork/</url>
     <mirrorOf>*</mirrorOf>
   </mirror>
 </mirrors>
